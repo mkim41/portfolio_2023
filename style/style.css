@@ -1,0 +1,156 @@
+body {
+    font-family: 'aktiv-grotesk', 'helvetica', sans-serif;
+    font-weight: 400;
+    line-height: 230%;
+    letter-spacing: -.2px;
+    color: rgb(50, 50, 50);
+    background-color: rgb(239, 239, 239);
+}
+
+
+
+/* MENU */
+/* .menu {
+    background-color: antiquewhite;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+li {
+    background-color: rgb(134, 174, 203);
+    width: 100px;
+}
+
+.menu_right {
+    justify-content: flex-end;
+    
+}
+
+.div {
+    overflow: auto;
+} */
+
+
+/* INTRO */
+.intro{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 170px;
+}
+
+.intro_left{
+    width: 40%;
+    height: 250px;
+    padding: 30px;
+}
+
+.intro_right{
+    width: 60%;
+    height: 250px;
+    padding: 30px;
+}
+
+
+
+
+
+/* WORKS */
+.works {
+    width: 90%;
+    margin: auto;
+}
+
+.work_num{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.work_description{
+    width: 30%;
+    padding: 30px 80px 30px 30px;
+}
+
+.slide {
+    width: 70%;
+    display: flex; 
+    overflow-x: auto; /* lets you scroll horizontally */
+    flex-wrap: nowrap;
+    cursor: all-scroll;
+    padding: 2%;
+}
+
+
+
+img,video {
+    width: 100%;
+    height: 100%;
+}
+
+/* SLIDE BACKGROUND COLORS */
+.sewers_slide, .sewers_description {
+    background-color: rgb(45, 42, 42);
+    color: rgb(231, 231, 231);
+}
+
+.atlas_slide, .atlas_description{
+    background-color: #0036FF;
+    color: rgb(231, 231, 231);
+}
+
+.molecular_slide, .molecular_description{
+    background-color: #C2C0C1;
+    color: rgb(50, 50, 50);
+}
+
+.transport_slide, .transport_description{
+    background-color: #98b1a0;
+    color: rgb(50, 50, 50);
+}
+
+.mod_slide, .mod_description {
+    background-color: #B4C7D1
+}
+
+
+
+
+
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {display: none;}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+
+
+
+/* type */
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+b {
+    font-weight: 700;
+}
+
+a,
+a[href^="mailto"],
+a:active,
+a:visited {color:rgb(111, 196, 159);}
