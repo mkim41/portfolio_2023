@@ -1,0 +1,262 @@
+body {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    margin:0;
+}
+
+
+/* FIXED MENU */
+.fixed_menu {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid white;
+    z-index: 1;
+}
+
+ul {
+   margin: 30px;
+}
+
+li {
+    display: inline-block;
+}
+
+.resume {
+    float: right;
+    color: rgb(58, 156, 255);
+}
+
+
+/* INTRO */
+.intro{
+    display: flex;
+    padding: 80px 0 50px 0;   
+}
+
+#intro_title{
+    height: 300px;
+    border: none;
+}
+
+#intro_thumb{
+    height: 300px;
+}
+
+.intro_text{
+    margin-right: 300px;
+    margin-left: -5%;
+}
+
+
+
+
+
+/* WORKS */
+
+.thumbnails{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.title {
+    width: 29%;
+    height: 600px;
+    margin-left: 30px;
+    margin-right: 6%;
+    border-top: 1px solid white;
+}
+
+.work_thumb{
+    width: 65%;
+    flex-shrink: 0;
+    /* overflow: hidden; */
+}
+
+/* .slide1, .slide2  { 
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: row;
+} */
+
+.arrow_prev1, .arrow_prev2, .arrow_prev3, .arrow_prev4, .arrow_prev5, .arrow_prev6, .arrow_prev7, .arrow_prev8, .arrow_prev9 {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 297.5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.arrow_next1, .arrow_next2, .arrow_next3, .arrow_next4, .arrow_next5, .arrow_next6, .arrow_next7, .arrow_next8, .arrow_next9 {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom: 297.5px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.slide-image {
+    width: 100%;
+	
+}
+
+img,video {
+    max-height: 675px;
+}
+
+.footer {
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {display: none;}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+
+
+
+/* type */
+
+h2 {
+    font-size: 1em;
+    line-height: 1.6em;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+h3 {
+    font-size: .9em;
+    line-height: 1.5em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    letter-spacing: -.1px;
+    /* font-weight: 500; */
+}
+
+b {
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+small {
+    font-size: .7em;
+    line-height: 1em;
+}
+
+a,
+a[href^="mailto"],
+a:active,
+a:link,
+a:visited {    color: rgb(58, 156, 255);}
+
+/* small */
+  @media only screen and (max-width: 1200px) {
+
+    .intro{
+        height: 480px;
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+    
+    #intro_title{
+        width: 0;
+        margin: 0;
+    }
+    
+    .intro_text{
+        width: 70%;
+        margin-left: 30px;
+    }
+
+    .works {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .thumbnails {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    
+    .title {
+        width: 90%;
+        max-height: 100px;
+        overflow-y: hidden;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .work_thumb{
+        width: 100%;
+        height: 50%;
+        /* overflow: hidden; */
+    }
+    
+    /* .slide1, .slide2 {
+        width: 100%;
+        display: flex;
+        flex-wrap:nowrap;
+        flex-direction: row;
+        flex-shrink: 0;
+    } */
+    
+    .arrows {
+        /* margin:auto;  */
+        display: flex;
+        flex-direction: row;
+    }
+    .arrow_prev1, .arrow_prev2, .arrow_prev3, .arrow_prev4, .arrow_prev5, .arrow_prev6, .arrow_prev7, .arrow_prev8, .arrow_prev9 {
+        font-size: 20px;
+        width: 50%;
+        height: 20px;
+        margin: 30px;
+        cursor: pointer;
+        text-align: left;
+    }
+    
+    .arrow_next1, .arrow_next2, .arrow_next3, .arrow_next4, .arrow_next5, .arrow_next6, .arrow_next7, .arrow_next8, .arrow_next9 {
+        font-size: 20px;
+        width: 50%;
+        height: 20px;
+        margin: 30px;
+        cursor: pointer;
+        text-align: right;
+    }
+    
+    img,video {
+        max-height: 50%;
+    }
+  }
